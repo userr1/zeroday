@@ -3,7 +3,7 @@
   <title>testy z VPS'em</title>
  </head>
  <body>
- <form action="" method="POST">
+ <form action="index.php" method="POST">
  <input type="text" name="imie">
  <input type="submit" name="go" value="wyslij">
  </form>
@@ -12,11 +12,11 @@
  </html>
 
 <?php
- $imie = "dominik";
-  if (imie == "dominik"){
-      echo "witaj admin";
- }else{
-  echo "jeb sie!";
+$imie = $_POST['imie'];
+if($imie == 'null'){
+}elseif($imie == "dominik"){
+echo "witaj moj panie xD";
 }
-  
+
+//var_dump($imie);
 ?>
