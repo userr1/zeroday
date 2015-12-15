@@ -18,5 +18,5 @@ if($imie == 'null'){
 echo "witaj moj panie xD";
 }
 
-//var_dump($imie);
+var_dump($imie);
 ?>
